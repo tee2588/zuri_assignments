@@ -21,13 +21,13 @@ Repository for Zuri Frontend Tasks from Week 3
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/tee2588/zuri_assignments/
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd zuri_assignments
 ```
 
 Install dependencies
