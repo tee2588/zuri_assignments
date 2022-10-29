@@ -1,0 +1,96 @@
+/* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+html {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.columns {
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b'
+  'c'
+  ;
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background: greenyellow;
+  
+}
+.column {
+  display: grid;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  width: 100%;
+  min-width: 300px;
+  padding: 3em;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.sedan {
+  background: greenyellow;
+  grid-area: a;
+}
+.suv {
+  background: wheat;
+  grid-area: b;
+}
+.luxury {
+  background: greenyellow;
+  grid-area: c;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+a {
+    text-decoration: unset;
+    color: unset;
+  }
+.desc {
+  line-height: 2;
+  margin: 0;
+  margin-bottom: 4rem;
+  max-width: 35ch;
+}
+.img {
+  width: 75px;
+}
+.button {
+  margin: auto auto 0 0;
+  text-align: center;
+  background: whitesmoke;
+  color: greenyellow;
+  padding: 1em 2em;
+  border-radius: 25px;
+}
+.button:hover {
+  background: none;
+  border: 0.2rem solid whitesmoke;
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 300px) and (max-width: 760px){
+    .column {
+       grid-template-columns: repeat(1, 3fr);
+       margin-top: 0px;
+    }
+    .suv {
+      border-radius: 12px 12px 0px 0px;
+    }
+    .luxury {
+      background-color: greenyellow;
+      border-radius: 0px 0px 12px 12px;
+    }
+  }
