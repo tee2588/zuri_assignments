@@ -1,0 +1,479 @@
+/* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.body-head {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .success {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    position: relative;
+    left: 800px;
+  }
+  .succes h1{
+    font-family: "Ubuntu", sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    
+  
+  }
+  .body-head h1{
+    font-family: "Ubuntu", sans-serif;
+    align-items: left;
+    justify-content: left;
+    font-size: 30px;
+    font-weight: initial;
+
+  }
+
+  .emoji{
+   font-size: 4em;
+  }
+
+  nav {
+    position: -webkit-sticky; /*Safari*/
+    position: sticky;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #333;
+    font-family: "Audiowide", sans-serif;
+  }
+
+  .logo {
+    align-items: left;
+    justify-content: left;
+    padding-right: 250px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "Comforter Brush", Ubuntu;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+  }
+
+  .nav-links li {
+    list-style: none;
+
+  }
+
+  .nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 14px 16px ;
+
+  }
+
+  .nav-links a:hover:not(.active) {
+    background-color: rgb(7, 68, 31);
+
+  }
+
+  .nav-links li a.active {
+    background-color: rgb(7, 68, 31);
+
+  }
+  hr{
+    color:  #333;
+    margin-top: 2px;
+    border: solid 1px;
+  }
+body{
+  background-color: #ebfafa;
+  margin-bottom: 300px;
+}
+
+.body-text {
+  display: list-item;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.body-text h1{
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+
+}
+.body-text p{
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  font-weight: bold;
+
+}
+/* Button */
+#about{
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.body-text a{
+    margin-top: 50px;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    font-family: "Audiowide", sans-serif;
+    width: 10%;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 14px 16px ;
+}
+
+.body-text a:hover:not(.active) {
+  background-color: rgb(7, 68, 31);
+
+}
+
+.body-text a.active {
+  background-color: rgb(7, 68, 31);
+
+}
+
+/* Footer */
+footer{
+  position: relative;
+  top: 320px;
+  text-align: center;
+  padding: 3px;
+
+}
+.fa {
+  padding: 20px 20px 10px 20px;
+  font-size: 6em;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #ebfafa;
+  color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #ebfafa;
+  color: #55ACEE;
+}
+
+/* instagram */
+.fa-instagram {
+  background: #ebfafa;
+  color: #55ACEE;
+}
+
+/* Twitter */
+.fa-google {
+  background: #ebfafa;
+  color: #55ACEE;
+}
+
+.body-img img{
+  position: relative;
+  right: 100px;
+  
+  margin-bottom: 150px;
+  float: right;
+  margin: auto;
+  width: 250px;
+  height: 500px;
+  padding: 25px;
+  }
+
+.login{
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+
+}
+.signup{
+    width: 35%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+  
+  }
+.login h2{
+    font-weight: 300;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+.signup h2{
+    font-weight: 300;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#fname{
+    margin: 10px 10px 10px 0px;
+}
+#lname{
+    margin: 10px 10px 10px 0px;
+}
+#mobile{
+    margin: 10px 10px 10px 0px;
+}
+#male{
+    margin: 10px 10px 10px 0px;
+}
+#female{
+    margin: 10px 10px 10px 0px;
+}
+#dob{
+    margin: 10px 10px 10px 0px;
+}
+
+#fav_color{
+    margin: 10px 10px 10px 0px;
+}
+#email{
+    margin: 10px 10px 10px 0px;
+}
+#password{
+    margin: 10px 10px 10px 0px;
+}
+input[type="submit"] {
+    border: solid 1px #333;
+    padding: 5px;
+    display: block;
+    background-color: #3ca9e2;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+  }
+  input[type="submit"]:hover {
+    background-color: #329dd5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  #login-form {
+    padding: 0 60px;
+  }
+
+  #signup-form {
+    padding: 0 60px;
+  }
+  
+  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+  }
+
+  #fav{
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 0px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative;
+    right:230px;
+    display: inline-block;
+    background: none;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 17px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative;
+    right:0px;
+    display: inline-block;
+    background: none;
+  }
+
+  label {
+    width: 100%;
+    padding:10px;
+    margin: 10px;
+    color: #8a8b8e;
+    border: 0px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative;
+    right:250px;
+    display: inline-block;
+    background: none;
+
+    /* display: block;
+    box-sizing: border-box;
+    width: 20%;
+    outline: none;
+    height: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-size: 16px;
+    border-radius: 4px; */
+  }
+  
+  input[type="tel"],
+  input[type="date"],
+  input[type="color"],
+  input[type="text"],
+  input[type="checkbox"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+  }
+  input[type="tel"]:focus,
+  input[type="date"]:focus,
+  input[type="color"]:focus,
+  input[type="text"]:focus,
+  input[type="checkbox"]:focus, 
+  input[type="password"]:focus,
+  input[type="email"]:focus {
+    border-color: #3ca9e2;
+  }
+  input[type="tel"]:focus:invalid,
+  input[type="date"]:focus:invalid,
+  input[type="color"]:focus:invalid,
+  input[type="text"]:focus:invalid,
+  input[type="radio"]:focus:invalid,
+  input[type="password"]:focus:invalid,
+  input[type="email"]:focus:invalid {
+    color: #cc1e2b;
+    border-color: #cc1e2b;
+  }
+  input[type="tel"]:valid ~ .validation,
+  input[type="date"]:valid ~ .validation,
+  input[type="color"]:valid ~ .validation,
+  input[type="text"]:valid ~ .validation,
+  input[type="radio"]:valid ~ .validation,
+  input[type="password"]:valid ~ .validation,
+  input[type="email"]:valid ~ .validation {
+    display: block;
+    border-color: #0C0;
+  }
+  input[type="tel"]:valid ~ .validation span,
+  input[type="date"]:valid ~ .validation span,
+  input[type="color"]:valid ~ .validation span,
+  input[type="text"]:valid ~ .validation span,
+  input[type="radio"]:valid ~ .validation span,
+  input[type="password"]:valid ~ .validation span,
+  input[type="email"]:valid ~ .validation span {
+    background: #0C0;
+    position: absolute;
+    border-radius: 6px;
+  }
+  input[type="tel"]:valid ~ .validation span:first-child,
+  input[type="date"]:valid ~ .validation span:first-child,
+  input[type="color"]:valid ~ .validation span:first-child,
+  input[type="text"]:valid ~ .validation span:first-child,
+  input[type="radio"]:valid ~ .validation span:first-child,
+  input[type="password"]:valid ~ .validation span:first-child,
+  input[type="email"]:valid ~ .validation span:first-child {
+    top: 30px;
+    left: 14px;
+    width: 20px;
+    height: 3px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  input[type="tel"]:valid ~ .validation span:last-child,
+  input[type="date"]:valid ~ .validation span:last-child,
+  input[type="color"]:valid ~ .validation span:last-child,
+  input[type="text"]:valid ~ .validation span:last-child,
+  input[type="radio"]:valid ~ .validation span:last-child,
+  input[type="password"]:valid ~ .validation span:last-child,
+  input[type="email"]:valid ~ .validation span:last-child {
+    top: 35px;
+    left: 8px;
+    width: 11px;
+    height: 3px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  .validation {
+    display: none;
+    position: absolute;
+    content: " ";
+    height: 60px;
+    width: 30px;
+    right: 15px;
+    top: 0px;
+  }
+  

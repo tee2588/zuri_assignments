@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 3 Task - Using HTML and CSS</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter Brush|ubuntu|Audiowide">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="./index.html">Login</a></li>
+      <li><a href="./Signup.html" class="active">Sign Up</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <section class="signup">
+    <h2>Sign Up</h2>
+    <form id="signup-form" action="./success.html">
+      <p><input type="text" id="fname" name="fname" placeholder="First Name" required><i
+          class="validation"><span></span><span></span></i></p>
+      <p><input type="text" id="lname" name="lname" placeholder="Last Name" required><i
+          class="validation"><span></span><span></span></i></p>
+      <p><input type="tel" id="mobile" name="mobile" placeholder="Mobile" required><i
+          class="validation"><span></span><span></span></i></p>
+      <p><input type="email" id="email" name="email" placeholder="Email Address" required><i
+          class="validation"><span></span><span></span></i></p>
+      <label for="gender">Sex:</label>
+      <select name="gender" id="gendeer">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <p><input type="date" id="dob" name="dob" placeholder="Date of Birth" required><i
+          class="validation"><span></span><span></span></i></p>
+      <label id="fav" for="fav_color">Favorite color:</label>
+      <p><input type="color" id="fav_color" name="fav_color" placeholder="Favourite Colour" value="#ebfafa" required><i
+          class="validation"><span></span><span></span></i></p>
+      <p><input type="submit" id="signup" value="Submit"></p>
+    </form>
+  </section>
+
+</body>
+
+</html>
