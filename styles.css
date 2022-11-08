@@ -89,7 +89,7 @@ img {
   }
 
 .prev:hover, .next:hover {
-    opacity: 1;
+    opacity: 1.5;
     background-color: rgba(0,0,0,0.8);
   }
 
